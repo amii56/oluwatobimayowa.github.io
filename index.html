@@ -26,7 +26,7 @@
 <body class="h-100 bg-light coins index">
   <div class="d-flex flex-column justify-content-between h-100">
     <div class="bg-sec">
-      <nav class="navbar navbar-expand-md navbar-light bg-main">
+      <nav class="navbar navbar-expand-md navbar-light bg-main pt-4">
         <div class="container">
           <a class="navbar-brand font-weight-bold" href="index.html">
             <img src="assets/brand/nairastack-icon.svg" width="30" height="30" class="d-inline-block align-top" alt=""> Nairastack</a>
@@ -182,14 +182,13 @@
                 <div class="row medium font-weight-demi mt-3">
                   <div class="col-11">
                     <div class="row">
-                      <div class="col-2 text-truncate sort" data-sort="company-name">Company &amp; Product</div>
-                      <div class="col-1 sort" data-sort="stack-sector">Sector</div>
-                      <div class="col-1 text-center">Rates</div>
-                      <div class="col-1 text-center">Tenor</div>
-                      <div class="col-2 text-truncate text-center">Minimum Amount</div>
-                      <div class="col-2 text-truncate text-center sort" data-sort="coin-mentions">Reputation</div>
-                      <div class="col-2 text-center">Behaviour</div>
-                      <div class="col-1 ">Upvotes</div>
+                      <div class="col-2 text-truncate sort" data-sort="company-name">Company</div>
+                      <div class="col-2 sort">Product</div>
+                      <div class="col-2 text-center data-sort="stack-sector"">Sector</div>
+                      <div class="col-1">Rates</div>
+                      <div class="col-1 text-center">Capital</div>
+                      <div class="col-2 text-truncate text-center sort" data-sort="coin-mentions">Duration</div>
+                      <div class="col-2 col-lg-2 ">Upvotes</div>
 
 
                     </div>
@@ -199,6 +198,7 @@
             </div>
           </div>
           <div class="list font-weight-light">
+
             <div class="alert-card card font-weight-light mb-2">
               <div class="card-body p-0">
                 <div class="row align-items-center no-gutters">
@@ -210,36 +210,39 @@
                           <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
                         </div>
                         <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
+                          <span class="d-inline d-lg-none"></span>Founded in 2016
                         </div>
                       </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
                           <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
+                          <span class="medium stack-sector">Broiler Chicken Farm</span>
                         </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>in Ogun State
                         </div>
                       </div>
                       <div class="col-6 col-lg-2">
                         <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Agriculture</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">6%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
                           <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N96,000</span>
                             <!-- <small class="text-danger"> per farm</small> -->
                           </div>
                         </div>
@@ -247,22 +250,25 @@
                       <div class="col-6 col-lg-2">
                         <div class="d-flex justify-content-start justify-content-lg-center">
                           <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">4 months</span>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
                           <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">545</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">245</button>
+                          </span>
+                        </div>    
                         </div>
                       </div>
                     </div>
@@ -283,36 +289,39 @@
                           <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
                         </div>
                         <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
+                          <span class="d-inline d-lg-none"></span>Founded in 2016
                         </div>
                       </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
                           <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
+                          <span class="medium stack-sector">Cassava Farm</span>
                         </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>in Edo State
                         </div>
                       </div>
                       <div class="col-6 col-lg-2">
                         <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Agriculture</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">25%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
                           <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N189,750</span>
                             <!-- <small class="text-danger"> per farm</small> -->
                           </div>
                         </div>
@@ -320,22 +329,25 @@
                       <div class="col-6 col-lg-2">
                         <div class="d-flex justify-content-start justify-content-lg-center">
                           <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">1 year</span>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
                           <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">323</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">32</button>
+                          </span>
+                        </div>    
                         </div>
                       </div>
                     </div>
@@ -344,6 +356,701 @@
               </div>
             </div>
 
+            <div class="alert-card card font-weight-light mb-2">
+              <div class="card-body p-0">
+                <div class="row align-items-center no-gutters">
+                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
+                    <div class="row align-items-center">
+                      <div class="col-6 col-lg-2">
+                        <div>
+                          <span class="font-weight-medium company-name">ThriveAgric</span>
+                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Backed by Pensure
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
+                          <small class="text-secondary d-block d-lg-none">Sector: </small>
+                          <span class="medium stack-sector">Cattle Fattening Farm</span>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>in Osun State
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Agriculture</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">20%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div class="d-flex align-items-center">
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium">N150,000</span>
+                            <!-- <small class="text-danger"> per farm</small> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">6 months</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">123</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">6</button>
+                          </span>
+                        </div>    
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="alert-card card font-weight-light mb-2">
+              <div class="card-body p-0">
+                <div class="row align-items-center no-gutters">
+                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
+                    <div class="row align-items-center">
+                      <div class="col-6 col-lg-2">
+                        <div>
+                          <span class="font-weight-medium company-name">Cowrywise</span>
+                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Founded in 2017
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
+                          <small class="text-secondary d-block d-lg-none">Sector: </small>
+                          <span class="medium stack-sector">Periodic Savings</span>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>in Lagos
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Financial</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">10%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div class="d-flex align-items-center">
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N25,000</span>
+                            <!-- <small class="text-danger"> per farm</small> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">1 year</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">234</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">67</button>
+                          </span>
+                        </div>    
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="alert-card card font-weight-light mb-2">
+              <div class="card-body p-0">
+                <div class="row align-items-center no-gutters">
+                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
+                    <div class="row align-items-center">
+                      <div class="col-6 col-lg-2">
+                        <div>
+                          <span class="font-weight-medium company-name">ThriveAgric</span>
+                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Backed Ren MFB
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
+                          <small class="text-secondary d-block d-lg-none">Sector: </small>
+                          <span class="medium stack-sector">Sorghum Farm</span>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Abuja/Kaduna Expressway
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Agriculture</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">27%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div class="d-flex align-items-center">
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N260,000</span>
+                            <!-- <small class="text-danger"> per farm</small> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">5 months</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">130</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">22</button>
+                          </span>
+                        </div>    
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="alert-card card font-weight-light mb-2">
+              <div class="card-body p-0">
+                <div class="row align-items-center no-gutters">
+                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
+                    <div class="row align-items-center">
+                      <div class="col-6 col-lg-2">
+                        <div>
+                          <span class="font-weight-medium company-name">Wema Bank</span>
+                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Founded in 1956
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
+                          <small class="text-secondary d-block d-lg-none">Sector: </small>
+                          <span class="medium stack-sector">ALAT</span>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>...
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Financial</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">10%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div class="d-flex align-items-center">
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N10,000</span>
+                            <!-- <small class="text-danger"> per farm</small> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">1 year</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">657</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">32</button>
+                          </span>
+                        </div>    
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="alert-card card font-weight-light mb-2">
+              <div class="card-body p-0">
+                <div class="row align-items-center no-gutters">
+                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
+                    <div class="row align-items-center">
+                      <div class="col-6 col-lg-2">
+                        <div>
+                          <span class="font-weight-medium company-name">Stanbic IBTC</span>
+                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Backed by Standard Group
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
+                          <small class="text-secondary d-block d-lg-none">Sector: </small>
+                          <span class="medium stack-sector">Mutual Funds</span>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>...
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Financial</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">12%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div class="d-flex align-items-center">
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N100,000</span>
+                            <!-- <small class="text-danger"> per farm</small> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">1 year</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">545</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">245</button>
+                          </span>
+                        </div>    
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="alert-card card font-weight-light mb-2">
+              <div class="card-body p-0">
+                <div class="row align-items-center no-gutters">
+                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
+                    <div class="row align-items-center">
+                      <div class="col-6 col-lg-2">
+                        <div>
+                          <span class="font-weight-medium company-name">Diamond Bank</span>
+                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Founded in 2016
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
+                          <small class="text-secondary d-block d-lg-none">Sector: </small>
+                          <span class="medium stack-sector">Treasury Bills</span>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>...
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Financial</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">19%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div class="d-flex align-items-center">
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N1,000,000</span>
+                            <!-- <small class="text-danger"> per farm</small> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">1 year</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">145</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">205</button>
+                          </span>
+                        </div>    
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="alert-card card font-weight-light mb-2">
+              <div class="card-body p-0">
+                <div class="row align-items-center no-gutters">
+                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
+                    <div class="row align-items-center">
+                      <div class="col-6 col-lg-2">
+                        <div>
+                          <span class="font-weight-medium company-name">Transberg</span>
+                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Backers Unknown
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
+                          <small class="text-secondary d-block d-lg-none">Sector: </small>
+                          <span class="medium stack-sector">Sienna</span>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>in Uyo
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Transportation</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">18%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div class="d-flex align-items-center">
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N200,000</span>
+                            <!-- <small class="text-danger"> per farm</small> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">6 months</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">545</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">245</button>
+                          </span>
+                        </div>    
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="alert-card card font-weight-light mb-2">
+              <div class="card-body p-0">
+                <div class="row align-items-center no-gutters">
+                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
+                    <div class="row align-items-center">
+                      <div class="col-6 col-lg-2">
+                        <div>
+                          <span class="font-weight-medium company-name">Farmcrowdy</span>
+                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Founded in 2016
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
+                          <small class="text-secondary d-block d-lg-none">Sector: </small>
+                          <span class="medium stack-sector">Broiler Chicken Farm</span>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>in Ogun State
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Agriculture</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">6%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div class="d-flex align-items-center">
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N96,000</span>
+                            <!-- <small class="text-danger"> per farm</small> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">4 months</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">545</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">245</button>
+                          </span>
+                        </div>    
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="alert-card card font-weight-light mb-2">
+              <div class="card-body p-0">
+                <div class="row align-items-center no-gutters">
+                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
+                    <div class="row align-items-center">
+                      <div class="col-6 col-lg-2">
+                        <div>
+                          <span class="font-weight-medium company-name">Farmcrowdy</span>
+                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>Founded in 2016
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start">
+                          <small class="text-secondary d-block d-lg-none">Sector: </small>
+                          <span class="medium stack-sector">Broiler Chicken Farm</span>
+                        </div>
+                        <div class="text-secondary small">
+                          <span class="d-inline d-lg-none"></span>in Ogun State
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Sector: <br></span>
+                            <span class=" text-dark medium">Agriculture</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1 pr-0">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
+                            <span class="font-weight-demi text-dark medium">6%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-1">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div class="d-flex align-items-center">
+                            <span class="d-inline d-lg-none text-secondary small">Min. Capital:  <br></span>
+                            <span class="text-dark medium"> N96,000</span>
+                            <!-- <small class="text-danger"> per farm</small> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start justify-content-lg-center">
+                          <div>
+                            <div>
+                              <span class="d-inline d-lg-none text-secondary small">Duration: <br></span>
+                              <span class=" text-dark medium">4 months</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col-6 col-lg-2">
+                        <div class="d-flex justify-content-start">
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote mr-3">545</button>
+                          </span>
+                        </div>
+                          <div>
+                            <span class="text-dark medium">
+                              <button type="button" class="btn btn-outline-secondary btn-sm before-downvote">245</button>
+                          </span>
+                        </div>    
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
 
             <div class="alert-card card font-weight-light mb-2">
               <div class="card-body p-0">
@@ -400,593 +1107,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="alert-card card font-weight-light mb-2">
-              <div class="card-body p-0">
-                <div class="row align-items-center no-gutters">
-                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
-                    <div class="row align-items-center">
-                      <div class="col-6 col-lg-2">
-                        <div>
-                          <span class="font-weight-medium company-name">Farmcrowdy</span>
-                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
-                        </div>
-                        <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
-                          <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
-                            <!-- <small class="text-danger"> per farm</small> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="alert-card card font-weight-light mb-2">
-              <div class="card-body p-0">
-                <div class="row align-items-center no-gutters">
-                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
-                    <div class="row align-items-center">
-                      <div class="col-6 col-lg-2">
-                        <div>
-                          <span class="font-weight-medium company-name">Farmcrowdy</span>
-                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
-                        </div>
-                        <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
-                          <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
-                            <!-- <small class="text-danger"> per farm</small> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="alert-card card font-weight-light mb-2">
-              <div class="card-body p-0">
-                <div class="row align-items-center no-gutters">
-                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
-                    <div class="row align-items-center">
-                      <div class="col-6 col-lg-2">
-                        <div>
-                          <span class="font-weight-medium company-name">Farmcrowdy</span>
-                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
-                        </div>
-                        <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
-                          <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
-                            <!-- <small class="text-danger"> per farm</small> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="alert-card card font-weight-light mb-2">
-              <div class="card-body p-0">
-                <div class="row align-items-center no-gutters">
-                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
-                    <div class="row align-items-center">
-                      <div class="col-6 col-lg-2">
-                        <div>
-                          <span class="font-weight-medium company-name">Farmcrowdy</span>
-                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
-                        </div>
-                        <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
-                          <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
-                            <!-- <small class="text-danger"> per farm</small> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="alert-card card font-weight-light mb-2">
-              <div class="card-body p-0">
-                <div class="row align-items-center no-gutters">
-                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
-                    <div class="row align-items-center">
-                      <div class="col-6 col-lg-2">
-                        <div>
-                          <span class="font-weight-medium company-name">Farmcrowdy</span>
-                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
-                        </div>
-                        <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
-                          <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
-                            <!-- <small class="text-danger"> per farm</small> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="alert-card card font-weight-light mb-2">
-              <div class="card-body p-0">
-                <div class="row align-items-center no-gutters">
-                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
-                    <div class="row align-items-center">
-                      <div class="col-6 col-lg-2">
-                        <div>
-                          <span class="font-weight-medium company-name">Farmcrowdy</span>
-                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
-                        </div>
-                        <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
-                          <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
-                            <!-- <small class="text-danger"> per farm</small> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="alert-card card font-weight-light mb-2">
-              <div class="card-body p-0">
-                <div class="row align-items-center no-gutters">
-                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
-                    <div class="row align-items-center">
-                      <div class="col-6 col-lg-2">
-                        <div>
-                          <span class="font-weight-medium company-name">Farmcrowdy</span>
-                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
-                        </div>
-                        <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
-                          <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
-                            <!-- <small class="text-danger"> per farm</small> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="text-dark medium coin-mentions">
-                              <button type="button" class="btn btn-outline-primary btn-sm before-upvote">545</button>
-                          </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="alert-card card font-weight-light mb-2">
-              <div class="card-body p-0">
-                <div class="row align-items-center no-gutters">
-                  <a class="col-10 col-lg-11 py-2 pl-2" href="#">
-                    <div class="row align-items-center">
-                      <div class="col-6 col-lg-2">
-                        <div>
-                          <span class="font-weight-medium company-name">Farmcrowdy</span>
-                          <sup><span class="badge badge-pill badge-secondary badge-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Nigeria's 1st Digital Agriculture Platform focused on giving people the opportunity to invest in Agriculture by connecting farm sponsors with real farmers.">i</span></sup>
-                        </div>
-                        <div class="text-secondary small">
-                          <span class="d-inline d-lg-none"></span> Yam Farm
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="text-dark d-flex flex-column flex-lg-row justify-content-start justify-content-lg-center">
-                          <small class="text-secondary d-block d-lg-none">Sector: </small>
-                          <div class="medium stack-sector">Agriculture</div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Rates: <br></span>
-                            <span class="font-weight-demi text-dark medium coin-mentions">23%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-1 pr-0">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <span class="d-inline d-lg-none text-secondary small">Tenor: <br></span>
-                            <span class="text-dark medium coin-mentions">4 months</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div class="d-flex align-items-center">
-                            <span class="d-inline d-lg-none text-secondary small">Min. Amount:  <br></span>
-                            <span class="text-dark medium coin-mentions"> N200,000</span>
-                            <!-- <small class="text-danger"> per farm</small> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2">
-                        <div class="d-flex justify-content-start justify-content-lg-center">
-                          <div>
-                            <small class="text-secondary">
-                                      Founded in 2016<br>
-                                  </small>
-                            <small class="text-success">No Fraud Record</small>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-lg-2 text-nowrap">
-                        <div class="price-7d" data-timeseries="{&quot;timeseries&quot;:[{&quot;date&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;value&quot;:1005.2},{&quot;date&quot;:&quot;2018-01-16T15:00:00.000Z&quot;,&quot;value&quot;:841.917},{&quot;date&quot;:&quot;2018-01-17T16:00:00.000Z&quot;,&quot;value&quot;:633.039},{&quot;date&quot;:&quot;2018-01-18T15:00:00.000Z&quot;,&quot;value&quot;:851.798},{&quot;date&quot;:&quot;2018-01-19T15:00:00.000Z&quot;,&quot;value&quot;:838.11},{&quot;date&quot;:&quot;2018-01-20T15:00:00.000Z&quot;,&quot;value&quot;:917.381},{&quot;date&quot;:&quot;2018-01-21T15:00:00.000Z&quot;,&quot;value&quot;:830.639}],&quot;range&quot;:{&quot;from&quot;:&quot;2018-01-15T15:00:00.000Z&quot;,&quot;to&quot;:&quot;2018-01-21T15:00:00.000Z&quot;}}"><svg height="36" width="115"><g transform="translate(0,5.3999999999999995)"><path stroke="#868e96" stroke-width="1" fill="none" d="M0,0L19,11L39,25L58,10L77,11L96,6L115,12"></path></g></svg></div>
-                      </div>
+                     
                       <div class="col-6 col-lg-1">
                         <div class="d-flex justify-content-start justify-content-lg-center">
                           <div>
