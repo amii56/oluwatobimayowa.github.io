@@ -72,7 +72,7 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: "Maison Neue", "Inter UI", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-family-sans-serif: "DIN Next LT Pro", "Maison Neue", "Inter UI", -apple-system, BlinkMacSystemFont, sans-serif;
     --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
@@ -171,7 +171,7 @@ section {
 
 body {
     margin: 0;
-    font-family: "Maison Neue", "Inter UI", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "DIN Next LT Pro", "Maison Neue", "Inter UI", -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -9941,7 +9941,7 @@ a.text-telegram:hover {
     width: 200%;
     min-height: 650px;
     max-width: 700px;
-    background: url("nairastack_mockup@2x-04c77cfcb483d5333ebe36e5cba38ea8a749b64f9e6ac004a77c5e48beeba125.png") no-repeat;
+    background: url("brand/undraw-presentation-1-tqkp.svg") no-repeat;
     background-size: 100%;
     opacity: 0;
     -webkit-animation-timing-function: cubic-bezier(0.45, 0, 0.6, 1);
